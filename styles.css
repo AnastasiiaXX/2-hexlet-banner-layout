@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "Onest Medium";
+  src: url(/fonts/OnestMedium1602-hint.ttf); 
+}
+
+@font-face {
+  font-family: "Onest Light";
+  src: url(/fonts/OnestLight1602-hint.ttf); 
+}
+
+@font-face {
+  font-family: "Onest Regular";
+  src: url('/fonts/OnestRegular1602-hint.ttf');
+}
+
+
+/* Общие стили */
+body {
+  width: 1440px;
+  margin: auto;
+}
+
+.banner {
+  height: 90px;
+  background-image: url("/images/background.svg");
+}
+
+/* Стили текста */
+.normal-text {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16.9px;
+  font-family: "Onest Medium";
+}
+
+.bold-text {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.8px;
+  font-family: "Onest Medium";
+}
+
+.hook-text {
+  color: #136ef6; 
+}
+
+/* Стили левого блока */
+.left-block .backpack-col img {
+  margin-top: 8.77px;
+  margin-left: 67px;
+}
+
+.left-block .left-text-col {
+  margin-top: 15px;
+  padding: 0px;
+}
+
+.left-block .left-text {
+  margin-top: 5px;
+}
+
+.left-block .arrows1-col img {
+  margin-top: 23.94px;
+}
+
+/* Текст в центре */
+.right-text-col {
+  margin-top: 10px;
+  margin-left: 62.11px;
+  padding-right: 0px;
+}
+
+.right-text-col .right-text {
+  margin-bottom: 2px;
+}
+
+/* Правые стрелки */
+.arrows2-col {
+  padding-left: 2px;
+}
+
+.arrows2-col img {
+  margin-top: 41px;
+}
+
+/* Кнопка */
+.btn-col {
+  margin-left: 14px;
+  padding: 0px;
+}
+
+.btn-col button {
+  font-size: 14px;
+  width: 160px;
+  height: 29px;
+  margin-top: 31px;
+  color: white;
+  border: none;
+  font-family: "Onest Medium";
+  font-weight: 700;
+  background: #136ef6;
+    border-radius: 5px;
+}
+
+.computer-icon {
+  padding-right: 0px;
+  padding-left: 45px;
+}
+
+.computer-icon img {
+  margin-top: 36.63px;
+  margin-right: 73.97px;
+}
