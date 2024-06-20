@@ -9,7 +9,7 @@ body {
 
 .banner {
   height: 90px;
-  background-image: url("images/background.svg");
+  background-image: url('images/background.svg');
 }
 
 /* Стили текста */
